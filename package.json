@@ -1,0 +1,21 @@
+{
+  "name": "pedidos",
+  "version": "1.0.0",
+  "description": "Api to order",
+  "main": "src/index.js",
+  "author": "Fabricio Cipriano",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "nodemon": "^2.0.22",
+    "uuidv4": "^6.2.13"
+  }
+}
